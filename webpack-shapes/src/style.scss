@@ -1,0 +1,123 @@
+@import '~bootstrap/scss/bootstrap';
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Square*/
+.Small-Square{
+    width: 25px;
+    height: 25px;
+    margin:10px;
+}
+.Mid-Square{
+    width: 50px;
+    height: 50px;
+    margin:10px;
+}
+.Large-Square{
+    width: 75px;
+    height: 75px;
+    margin:10px;
+}
+
+/* Rectangle*/
+.Small-Rectangle{
+    width: 25px;
+    height: 5px;
+    margin:10px;
+}
+.Mid-Rectangle{
+    width: 50px;
+    height:25px;
+    margin:10px;
+}
+.Large-Rectangle{
+    width: 75px;
+    height:50px;
+    margin:10px;
+}
+/*Triangle*/
+.Small-Triangle{
+        width: 0; 
+        height: 0; 
+        border-left: 25px solid transparent;
+        border-bottom: 25px solid white;
+        border-right: 25px solid white;
+    margin:10px;
+}
+.Mid-Triangle{
+    width: 0; 
+    height: 0; 
+    border-left: 50px solid transparent;
+    border-right: 50px solid white;
+    
+    border-bottom: 50px solid white;
+    margin:10px;
+}
+.Large-Triangle{
+    width: 0; 
+    height: 0; 
+    border-top: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid white;
+    
+    border-bottom: 75px solid white;
+    margin:10px;
+}
+
+/* Circle*/
+.Small-Circle{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+      
+    margin:10px;
+}
+.Mid-Circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  
+    margin:10px;
+}
+.Large-Circle{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin:10px;
+}
+
+
+select {
+    margin: 10px;
+    padding: 5px;
+    margin-right: 30px;
+}
+
+input {
+    margin: 10px;
+    padding: 5px;
+    margin-right: 30px;
+}
+
+#navBar {
+    margin: auto;
+    width: 40%;
+}
+
+nav {
+    background-color: yellowgreen;
+}
+
+#Top-Left,
+#Top-Right,
+#Bottom-Left,
+#Bottom-Right {
+    border: 1px solid red;
+}
+
+
+
+
+

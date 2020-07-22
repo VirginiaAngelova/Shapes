@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shapes</title>
+</head>
+
+<body>
+    <nav>
+        <div id="navBar">
+            <select name="selectType" id="selectType">
+                <option value="Square">Square</option>
+                <option value="Rectangle">Rectangle</option>
+                <option value="Triangle">Triangle</option>
+                <option value="Circle">Circle</option>
+
+            </select>
+            <select name="size" id="size">
+                <option value="Large">Large</option>
+                <option value="Mid">Mid</option>
+                <option value="Small">Small</option>
+            </select>
+            <select name="position" id="position">
+                <option value="Top-Left">TopLeft</option>
+                <option value="Top-Right">TopRight</option>
+                <option value="Bottom-Left">BottomLeft</option>
+                <option value="Bottom-Right">BottomRight</option>
+            </select>
+            <input type="color" id="colorPicker" value="#ff0000" />
+            <button id="addButton">Add</button>
+        </div>
+    </nav>
+    <div class="container-fluid row" style="height: 90vh">
+            <div class="col-12 row h-50">
+                <div class="d-flex flex-wrap col-6 h-100" id="Top-Left">
+                </div>
+                <div class=" d-flex flex-wrap col-6 h-100" id="Top-Right">
+                </div>
+            </div>
+            <div class="col-12 row h-50">
+                <div class=" d-flex flex-wrap col-6 h-100" id="Bottom-Left">
+                </div>
+                <div class=" d-flex flex-wrap col-6 h-100" id="Bottom-Right">
+                </div>
+            </div>
+        </div>
+  
+    </div>
+
+</body>
+
+</html>
